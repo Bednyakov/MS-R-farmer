@@ -21,3 +21,4 @@ pip install -r requiremenrs.txt
 python main.py
 ```
 
+Вопросы можете задать в [телеграм-канале](https://t.me/itpolice)
