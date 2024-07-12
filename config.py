@@ -4,12 +4,13 @@ user_profile = "C:/Users/Артем/AppData/Local/Google/Chrome/User Data"  # З
 cookies_file = 'cookies.json'
 
 headers = {
-    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
-    'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
-    'Accept-Encoding': 'gzip, deflate, br',
-    'Accept-Language': 'en-US,en;q=0.5',
-    'Connection': 'keep-alive',
-    'Upgrade-Insecure-Requests': '1'
+    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36',
+    'Accept': '*/*',
+    'Accept-Encoding': 'gzip, deflate, br, zstd',
+    'Accept-Language': 'ru,en-US;q=0.9,en;q=0.8',
+    'Content-Type': 'application/json',
+    'Referer': 'https://www.bing.com/?form=ML2PCO',
+    'Priority': 'u=1, i',
 }
 
 proxies = {
