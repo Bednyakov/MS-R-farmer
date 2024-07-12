@@ -69,6 +69,7 @@ class CookieRequests:
         """
         session = requests.Session()
         session.cookies.update(cookies)
+        #session.headers.update(headers)
         if prox:
             response = session.get(url, proxies=proxies)
             return response
